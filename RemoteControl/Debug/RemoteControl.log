@@ -1,0 +1,34 @@
+﻿生成启动时间为 2015/8/29 17:52:23。
+     1>项目“F:\MyProject\RemoteControl\RemoteControl\RemoteControl.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\RemoteControl.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+     1>d:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\afx.h(38): warning C4996: 'MBCS_Support_Deprecated_In_MFC': MBCS support in MFC is deprecated and may be removed in a future version of MFC.
+                 d:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\afx.h(33) : 参见“MBCS_Support_Deprecated_In_MFC”的声明
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\RemoteControl.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt include\Buffer.cpp include\CpuUsage.cpp include\IOCPServer.cpp RemoteControl.cpp RemoteControlDlg.cpp
+         RemoteControlDlg.cpp
+     1>f:\myproject\remotecontrol\remotecontrol\remotecontroldlg.cpp(323): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>f:\myproject\remotecontrol\remotecontrol\remotecontroldlg.cpp(343): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+         RemoteControl.cpp
+         IOCPServer.cpp
+     1>f:\myproject\remotecontrol\remotecontrol\include\iocpserver.cpp(766): warning C4244: “初始化”: 从“double”转换到“unsigned long”，可能丢失数据
+     1>f:\myproject\remotecontrol\remotecontrol\include\iocpserver.cpp(912): warning C4018: “>=”: 有符号/无符号不匹配
+         CpuUsage.cpp
+         Buffer.cpp
+         正在生成代码...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _DEBUG /l"0x0804" /IDebug\ /nologo /fo"Debug\RemoteControl.res" RemoteControl.rc 
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\MyProject\RemoteControl\Debug\RemoteControl.exe" /INCREMENTAL /NOLOGO ..\common\zlib\zlib.lib /NODEFAULTLIB:LIBCMT.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"F:\MyProject\RemoteControl\Debug\RemoteControl.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\MyProject\RemoteControl\Debug\RemoteControl.lib" /MACHINE:X86 Debug\RemoteControl.res
+         Debug\Buffer.obj
+         Debug\CpuUsage.obj
+         Debug\IOCPServer.obj
+         Debug\RemoteControl.obj
+         Debug\RemoteControlDlg.obj
+         Debug\stdafx.obj
+         RemoteControl.vcxproj -> F:\MyProject\RemoteControl\Debug\RemoteControl.exe
+     1>已完成生成项目“F:\MyProject\RemoteControl\RemoteControl\RemoteControl.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:06.10
